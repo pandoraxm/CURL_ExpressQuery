@@ -10,7 +10,7 @@
 ![订单详情](http://wx1.sinaimg.cn/large/658dc60bgy1fhtpva2d6eg211a0i9b29.gif)
 
 # 2 程序实现
-前面使用jquery ajax将快递单号传递到后台,后台查询到结果返回到前台。
+前台使用jquery ajax将快递单号传递到后台,后台查询到结果返回到前台。
 
 而调用快递100 API部分，则用CURL实现。
 
@@ -33,7 +33,7 @@ CURL部分请看search.php
 ![手机](http://wx4.sinaimg.cn/mw690/658dc60bgy1fhtqw5ztfgj20ai18x7wh.jpg)
 
 # 5 其他说明
-注意,如果使用https请求是,本机没有安装ssl证书的话,会有报错。
+注意,如果使用https请求时,本机没有安装ssl证书的话,会有报错。
 请务必加上
 ```
         curl_setopt($curl, CURLOPT_SSL_VERIFYPEER, false);

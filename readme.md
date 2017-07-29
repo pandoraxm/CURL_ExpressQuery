@@ -40,4 +40,6 @@ CURL部分请看search.php
         curl_setopt($curl, CURLOPT_SSL_VERIFYHOST, false);
 ```
 
+[项目演示地址](https://www.bear777.com/search)
+
 (不要脸的打个广告:) )个人网站https://www.bear777.com
